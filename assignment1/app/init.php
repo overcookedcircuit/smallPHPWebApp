@@ -1,1 +1,4 @@
-echo 'Hi'
+<?php
+
+?>
+Hi
