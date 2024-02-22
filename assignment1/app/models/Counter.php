@@ -9,7 +9,7 @@ class Count{
     }
 
     public function increment(){
-
+        $counter++;
     }
 
     public function write(){
