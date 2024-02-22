@@ -8,7 +8,19 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
     <title>About Us</title>
 </head>
+<header>
+    <h1>About Us page</h1>
+    <ul>
+        <li>Landing page</li>
+        <li>About us</li>
+        <li>Contact us</li>
+        <li>See the messages we get</li>
+    </ul>
+</header>
 <body>
-    
+    <h1>About us</h1>
+    <p>See our incredible team of devs</p>
+    <img src="">
+    <img src="">
 </body>
 </html>
