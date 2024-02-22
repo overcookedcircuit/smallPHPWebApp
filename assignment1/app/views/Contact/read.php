@@ -8,7 +8,16 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
     <title>Message Log</title>
 </head>
+<header>
+    <h1>Read Message log page</h1>
+    <ul>
+        <li>Landing page</li>
+        <li>About us</li>
+        <li>Contact us</li>
+        <li>See the messages we get</li>
+    </ul>
+</header>
 <body>
-    
+    <h1>Contact us - messages sent</h1>
 </body>
 </html>

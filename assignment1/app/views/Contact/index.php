@@ -21,7 +21,9 @@
     <h1>Contact us</h1>
     <p>Wanna reach us? Write your email information and message in the following form and then submit.</p>
     <form method='post'>
-        
+        <label>Email: <input type="email" placeholder="example@email.com"></label>
+        <label>Message: <input type="textarea" placeholder="Write your message here."></label>
+        <button type="button">Send!</button>
     </form>
 </body>
 </html>
