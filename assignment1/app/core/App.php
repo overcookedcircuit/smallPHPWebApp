@@ -27,9 +27,9 @@ class App{
         $url = $_GET['url'];
 
         //defined a few routes "url"=>"controller,method"
-        $routes = ['Person/register'=>'Person,register',
-                    'Person/complete_registration'=>'Person,complete_registration',
-                    'Person/'=>'Person,list',
+        $routes = ['Main/index'=>'viewManager,goToLandingPage',
+                    'Main/about_us'=>'viewManager,goToAboutUsPage',
+                    'Contact/index'=>'viewManager,goToContactUsPage',
                     'Person/delete' => 'Person,delete',
                     'Person/edit/{id}' => 'Person,edit',
                     'Person/update' => 'Person,update'];
