@@ -8,7 +8,20 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
     <title>Landing page</title>
 </head>
+<header>
+    <h1>Site Landing</h1>
+    <ul>
+        <li>Landing page</li>
+        <li>About us</li>
+        <li>Contact us</li>
+        <li>See the messages we get</li>
+    </ul>
+</header>
 <body>
-    
+    <h1>Landing Page</h1>
+    <p>
+        Welcome to this Web application.<br>
+        We aim to please.
+    </p>
 </body>
 </html>
