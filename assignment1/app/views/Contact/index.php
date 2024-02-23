@@ -23,7 +23,7 @@
 <body>
     <h1>Contact us</h1>
     <p>Wanna reach us? Write your email information and message in the following form and then submit.</p>
-<<<<<<< HEAD
+
     
     <div class="col-sm-3">
         <form method='post'>
@@ -33,6 +33,6 @@
         </form>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
->>>>>>> a545ad43f390e79c949a53fb2de38b261bcc5d53
+
 </body>
 </html>

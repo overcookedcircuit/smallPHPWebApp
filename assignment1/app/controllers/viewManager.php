@@ -21,6 +21,6 @@ class viewManager extends \app\core\Controller{
         $this->view('Contact/read');
     }
 
-    function 
+    
     
 }
