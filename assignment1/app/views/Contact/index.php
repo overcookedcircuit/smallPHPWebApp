@@ -32,5 +32,10 @@
             <button type="button" class="form-control">Send!</button>
         </form>
     </div>
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 5031918ad252e4df51badd2e2ddf6ab68651cbb9
 </body>
 </html>
