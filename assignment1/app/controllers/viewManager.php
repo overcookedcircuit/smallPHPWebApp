@@ -17,8 +17,9 @@ class viewManager extends \app\core\Controller{
         $this->view('Contact/index');
     }
 
-    function goToContactUsList(){
-        $this->view('Contact/read');
+    function viewReadLog(){
+        $message=\app\models\Message::read();
+        $this->view('Contact/read', $message);
     }
 
     function sendMessage(){

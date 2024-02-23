@@ -1,1 +1,3 @@
 {"name":"Manas is a vanier student","email":"manas@vanier.com","IP":"172.17.0.1"}
+{"name":"Jodel studies computer science.","email":"jodel@email.com","IP":"172.17.0.1"}
+{"name":"sending another message","email":"another@email.com","IP":"172.17.0.1"}

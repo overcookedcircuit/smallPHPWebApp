@@ -15,7 +15,7 @@ class Message{
         $this->IP = $object->IP;
     }
 
-    public function read() {
+    public static function read() {
         //read the file and return the collection of messsage
 		$filename = 'resources/messages.txt';
 		$records = file($filename);

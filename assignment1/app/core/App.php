@@ -30,7 +30,7 @@ class App{
         $routes = ['Main/index'=>'viewManager,goToLandingPage',
                     'Main/about_us'=>'viewManager,goToAboutUsPage',
                     'Contact/index'=>'viewManager,goToContactUsPage',
-                    'Contact/read'=>'viewManager,goToContactUsList',
+                    'Contact/read'=>'viewManager,viewReadLog',
                     'Contact/messageSent'=>'viewManager,sendMessage',
                 ];
 

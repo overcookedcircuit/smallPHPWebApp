@@ -22,5 +22,12 @@
 </header>
 <body>
     <h1>Contact us - messages sent</h1>
+    <table>
+    <?php
+    foreach($data as $index => $message){
+        echo "<tr><td>$message->email</td></tr><tr><td>$message->name</td></tr>";
+    }
+    ?>
+    </table>
 </body>
 </html>
