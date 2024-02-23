@@ -19,8 +19,16 @@
 </header>
 <body>
     <h1>About us</h1>
-    <p>See our incredible team of devs</p>
-    <img src="">
-    <img src="">
+    <p>See our incredible team of rock climbers</p>
+    <figure>
+        <img src="/images/manas.png" width="20%">
+        <figcaption>Manas Likes Rocks</figcaption>
+    </figure>
+
+    <figure>
+        <img src="/images/jodel.png" width="20%">
+        <figcaption>Jodel is Getting into Rocks</figcaption>
+    </figure>
+    
 </body>
 </html>
