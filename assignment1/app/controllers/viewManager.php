@@ -21,6 +21,20 @@ class viewManager extends \app\core\Controller{
         $this->view('Contact/read');
     }
 
-    function 
+    function sendMessage(){
+        //call a view to show the submitted data
+		//collect the data
+		//declare a message object
+		$message = new \app\models\Message();
+		//populate the properties
+		$message->name = $_POST['name'];
+		$message->email = $_POST['email'];
+		$message->IP = $_SERVER['REMOTE_ADDR'];
+		//hypothetically insert into a database
+		$message->write(); //add the message to the data file
+
+		//redirect the user back to the list
+		header('location:/Contact/read');
+    }
     
 }

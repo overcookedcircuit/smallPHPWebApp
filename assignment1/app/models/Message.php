@@ -7,7 +7,7 @@ class Message{
     public $IP;
 
     public function __construct($object = null){
-        if(object = null){
+        if($object == null){
             return;
         }
         $this->name = $object->name;

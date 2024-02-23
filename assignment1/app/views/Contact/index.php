@@ -26,10 +26,10 @@
 
     
     <div class="col-sm-3">
-        <form method='post'>
-            <label>Email: <input type="email" placeholder="example@email.com" class="form-control"></label><br>
-            <label>Message: <textarea placeholder="Write your message here." class="form-control"></textarea></label><br>
-            <button type="button" class="form-control">Send!</button>
+        <form method='post' action='/Contact/messageSent'>
+            <label>Email: <input type="email" placeholder="example@email.com" class="form-control" name="email"></label><br>
+            <label>Message: <textarea placeholder="Write your message here." class="form-control" name="name"></textarea></label><br>
+            <input type="submit" name="action" value="Send!" class="form-control"/> 
         </form>
     </div>
 

@@ -30,7 +30,8 @@ class App{
         $routes = ['Main/index'=>'viewManager,goToLandingPage',
                     'Main/about_us'=>'viewManager,goToAboutUsPage',
                     'Contact/index'=>'viewManager,goToContactUsPage',
-                    'Contact/read'=>'viewManager,goToContactUsList'
+                    'Contact/read'=>'viewManager,goToContactUsList',
+                    'Contact/messageSent'=>'viewManager,sendMessage',
                 ];
 
         //one by one compare the url to resolve the route
