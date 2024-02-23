@@ -16,5 +16,9 @@ class viewManager extends \app\core\Controller{
     function goToContactUsPage(){
         $this->view('Contact/index');
     }
+
+    function goToContactUsList(){
+        $this->view('Contact/read');
+    }
     
 }

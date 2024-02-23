@@ -11,7 +11,7 @@
 <header>
     <h1>Site Landing</h1>
     <ul>
-        <li>Landing page</li>
+        <li><a href="">Landing page</a></li>
         <li>About us</li>
         <li>Contact us</li>
         <li>See the messages we get</li>

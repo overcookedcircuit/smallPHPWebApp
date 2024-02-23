@@ -30,9 +30,8 @@ class App{
         $routes = ['Main/index'=>'viewManager,goToLandingPage',
                     'Main/about_us'=>'viewManager,goToAboutUsPage',
                     'Contact/index'=>'viewManager,goToContactUsPage',
-                    'Person/delete' => 'Person,delete',
-                    'Person/edit/{id}' => 'Person,edit',
-                    'Person/update' => 'Person,update'];
+                    'Contact/read'=>'viewManager,goToContactUsList'
+                ];
 
         //one by one compare the url to resolve the route
         foreach ($routes as $routeUrl => $controllerMethod) {
