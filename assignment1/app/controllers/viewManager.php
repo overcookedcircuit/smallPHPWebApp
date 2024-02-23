@@ -20,5 +20,7 @@ class viewManager extends \app\core\Controller{
     function goToContactUsList(){
         $this->view('Contact/read');
     }
+
+    
     
 }
